@@ -1,9 +1,10 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { WelcomePage } from '../pages';
 
 const Router = createBrowserRouter([
     {
         path: '/',
-        element: <h1>Hello world!!</h1>
+        element: <WelcomePage />
     }
 ]);
 
