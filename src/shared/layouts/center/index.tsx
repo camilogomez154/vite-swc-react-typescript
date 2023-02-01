@@ -2,8 +2,7 @@ import { FC, PropsWithChildren } from 'react';
 
 export const CenterLayout: FC<PropsWithChildren> = ({ children }) => {
     return (
-        <div className="center-layout-container">
-            Center Layout
+        <div className="layout-container layout-container__center">
             {children}
         </div>
     )

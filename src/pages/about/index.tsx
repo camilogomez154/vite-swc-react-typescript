@@ -1,10 +1,10 @@
 import { DashboardLayout } from "../../shared/layouts";
 import { FC } from "react";
 
-export const WelcomePage: FC = () => {
+export const AboutPage: FC = () => {
     return (
         <DashboardLayout>
-            <h2>Welcome page!</h2>
+            <h2>About page!</h2>
         </DashboardLayout>
     )
 }

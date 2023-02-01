@@ -1,13 +1,6 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import { WelcomePage } from '../pages';
-
-const Router = createBrowserRouter([
-    {
-        path: '/',
-        element: <WelcomePage />
-    }
-]);
+import { RouteList } from './list';
 
 export function RouterManager() {
-    return <RouterProvider router={Router} />
+    return <RouterProvider router={createBrowserRouter(RouteList)} />
 }
